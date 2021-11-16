@@ -43,3 +43,16 @@ Make sure your environment is activated and execute
 ```
 pip install -r requirements.txt
 ```
+
+
+### 4. Running `jupyter`
+
+The `jupyter notebook` is an interface to the interactive `python` called `IPython`. 
+Notebook files have the file extension `.ipynb`. The `jupyter lab` allows you to view files, open terminals and 
+run several Notebooks. To start it, activate your environment (if you haven't already) and run
+```
+jupyter lab
+```
+
+This opens the `jupyter lab` in your browser. You can know browse for a Notbook file in the file browser on the left
+and open it via double click.
