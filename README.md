@@ -7,6 +7,19 @@ environment in which you can install the required `Python` packages.
 
 ## Getting started
 
+### 0. Clone and update this repository
+
+To get all data included in this repository, open a terminal, navigate to the directory you want to work in and execute
+```
+git clone https://github.com/JannisNe/ExperimentalCosmology_WS21-22.git
+```
+
+This will create a directory `ExperimentalCosmology_WS21-22` in the current directory. \
+Any updates that will be posted can be downloaded by simply executing
+```
+git pull
+```
+
 ### 1. Installing `Python` / `conda`
 `Python` is the programming language we will be using. If you're not familiar with `Python` basics there are plenty 
 of introductions, see e.g. https://www.learnpython.org.
@@ -54,5 +67,5 @@ run several Notebooks. To start it, activate your environment (if you haven't al
 jupyter lab
 ```
 
-This opens the `jupyter lab` in your browser. You can know browse for a Notbook file in the file browser on the left
+This opens the `jupyter lab` in your browser. You can now browse for a Notbook file in the file browser on the left
 and open it via double click.
