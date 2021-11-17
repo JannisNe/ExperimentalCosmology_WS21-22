@@ -42,7 +42,7 @@ If for some reason this does not work you can set up an empty environment with
 ```
 conda create --name experimental_cosmology python==3.9
 ```
-You will have to install the packages manually as described in 5.
+You will have to install the packages manually as described in step 3.
 
 To activate the environment type
 ```
