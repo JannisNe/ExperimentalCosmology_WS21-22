@@ -37,6 +37,13 @@ In your terminal type
 ```
 conda env create -f env.yml
 ```
+
+If for some reason this does not work you can set up an empty environment with
+```
+conda create --name experimental_cosmology python==3.9
+```
+You will have to install the packages manually as described in 5.
+
 To activate the environment type
 ```
 conda activate experimental_cosmology
@@ -49,8 +56,10 @@ conda deactivate
 
 ### 3. Installing packages separately
 
-If you followed the steps above all packages are installed and you do not need to do anything else. \
-If you prefer a different way of setting up an environment you can install all packages via `pip`.
+If you successfully created the environment from `env.yml`, all packages are installed and you do not need to do 
+anything else. \
+If you set up an empty environment in step 2. (or you prefered a different way of setting up an environment), 
+you can install all packages via `pip`.
 All info about packages that are required for this course is located in `requirements.txt`. 
 Make sure your environment is activated and execute
 ```
@@ -67,5 +76,5 @@ run several Notebooks. To start it, activate your environment (if you haven't al
 jupyter lab
 ```
 
-This opens the `jupyter lab` in your browser. You can now browse for a Notbook file in the file browser on the left
+This opens the `jupyter lab` in your browser. You can now browse for a Notebook file in the file browser on the left
 and open it via double click.
